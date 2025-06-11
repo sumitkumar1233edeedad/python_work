@@ -1,0 +1,57 @@
+created bu : mckinney 
+develop : 2008
+work ::->
+
+            data manipulation
+            data analysis
+            it simplifies working with data structured
+
+Read the data:
+                 pd.read_than_file_extension('show the file name' , encoding add latin1)
+
+save in file :
+                # df.to_csv('student_data.csv', index=False)
+                # df.to_excel('student_data.xlsx', index=False)
+
+data explore:
+            1- understand the data student_data
+            2- identify the problem
+            3- plan next step
+
+            2- problem of the data
+                                    c0lumns, row?
+                                    what type of data?
+                                    missing data?
+
+                                    info() is method :
+                                                      show the row and columns
+                                                      columns name
+                                                      int64 float64 object
+                                                      non null counts
+                                                      memory use data frame
+
+
+filter:
+        1> select specific columns
+        2> filter row
+        3> combine maniple conditions
+
+        1> square bracket
+        2> boolean conditions
+
+        selecting columns
+        1> 1 aeries
+        2> dataframe maniple columns of data
+
+        column - df['column name']#single column
+        subset - df['column1', 'column2','.....']#maniple column access with use comma ","
+
+        filtering rows
+        boolean indexing
+
+        #based on single conditions
+        filter  = df[df["column_name"] > 50000]#like that salary
+
+
+        #combine multiple conditions
+        filter = df[(df["salary]>50000) & (df["column2"]< 80000)]

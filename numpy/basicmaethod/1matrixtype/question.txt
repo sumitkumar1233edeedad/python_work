@@ -1,0 +1,21 @@
+🧮 Aggregation Functions:
+- Given a numpy array, write code to find the minimum, maximum, sum, mean, standard deviation, and variance.
+- Create a numpy array of random integers and calculate its aggregation statistics.
+- Given a 2D numpy array, find the row-wise and column-wise sums and means.
+
+🔢 Array Creation Methods:
+- Create numpy arrays filled with zeros, ones, and a specific value using np.zeros, np.ones, and np.full.
+- Generate a sequence of numbers using np.arange with different start, stop, and step values.
+- Create an identity matrix of a given size using np.eye.
+- Create arrays of different shapes and data types using numpy array creation functions.
+
+➗ Element-wise Mathematical Operations:
+- Perform element-wise addition, multiplication, and exponentiation on numpy arrays.
+- Given two numpy arrays, perform element-wise operations and explain broadcasting rules.
+- Write code to apply a mathematical function (e.g., square, square root) element-wise on a numpy array.
+
+🚀 Advanced Practice:
+- Combine array creation and aggregation: create a large array and compute its statistics.
+- Use numpy functions to manipulate arrays (reshape, flatten, transpose) and then perform aggregation.
+- Implement a function that normalizes a numpy array using mean and standard deviation.
+- Explore numpy's random module to generate arrays and compute their properties.
