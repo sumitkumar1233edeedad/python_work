@@ -1,0 +1,15 @@
+10
+20
+nan(30)
+40
+50
+
+missing value solved
+
+linear
+
+1 - preserve data integrity
+2 - smooth trend
+3 - avoid data loss
+
+interpolate()
